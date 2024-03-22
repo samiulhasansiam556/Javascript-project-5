@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.btmain{
+  text-align: center;
+  margin-top: 20;
+  margin-bottom: 30px;
+  padding: 15px;
+
+}
+.btn{
+  width: 120px;
+  height: 40px;
+  background-color: lightpink;
+  margin: 15px;
+  font-size: 25px;
+  box-shadow: 2px 3px 8px rgb(53, 19, 191);
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover{
+
+  background-color: rgb(26, 26, 28);
+  color: white;
+  border-radius: 3px;
+  transform: scale(1.2);
+  
+
+}
+
+.maindiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+justify-content: space-around;
+gap: 20px;
+}
+
+.div1{
+  width: 430px;
+  height: 200px;
+  font-size: 90px;
+  color: rgb(235, 235, 235);
+  text-align: center;
+  line-height: 200px;
+  display: none;
+  
+}
+
+.div1:nth-child(2n+1){
+  background-color: blue;
+}
+.div1:nth-child(2n){
+  background-color: rgb(47, 90, 42);
+}
+
+.active{
+  display: block;
+}
